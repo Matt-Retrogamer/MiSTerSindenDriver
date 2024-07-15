@@ -16,9 +16,6 @@ sudo mkdir -p /media/fat/SindenLightgun
 sudo cp -f *.* /media/fat/SindenLightgun/
 sudo cp -f LightgunDriver /media/fat/SindenLightgun/LightgunDriver
 
-# Set LD_LIBRARY_PATH to include the SindenLightgun directory
-# echo "export LD_LIBRARY_PATH=\$LD_LIBRARY_PATH:/media/fat/SindenLightgun" | sudo tee -a /etc/profile
-
 # Copy tweaked kernel
 cd /media/fat/Scripts/Sinden/MiSTerSindenDriver-main/Kernel/MiSTerFPGA/MrFusion2.7/
 sudo cp -f /media/fat/linux/zImage_dtb /media/fat/linux/zImage_dtb_backup

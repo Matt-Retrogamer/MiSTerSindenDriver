@@ -104,7 +104,4 @@ sudo rm -f /media/fat/Scripts/SindenLightgunStart_LowResource.sh
 sudo rm -f /media/fat/Scripts/SindenLightgunStart_MaxResource.sh
 sudo rm -f /media/fat/Scripts/SindenLightgunStop.sh
 
-# Remove LD_LIBRARY_PATH addition
-# sudo sed -i '/\/media\/fat\/SindenLightgun/d' /etc/profile
-
 echo "MiSTerSindenDriver uninstallation completed. Please reboot your MiSTer."
