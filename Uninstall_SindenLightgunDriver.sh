@@ -99,10 +99,10 @@ if [ -d "/media/fat/SindenLightgun" ]; then
 fi
 
 # Remove startup scripts
-sudo rm -f /media/fat/Scripts/LightgunStart_Default.sh
-sudo rm -f /media/fat/Scripts/LightgunStart_LowResource.sh
-sudo rm -f /media/fat/Scripts/LightgunStart_MaxResource.sh
-sudo rm -f /media/fat/Scripts/LightgunStop.sh
+sudo rm -f /media/fat/Scripts/SindenLightgunStart_Default.sh
+sudo rm -f /media/fat/Scripts/SindenLightgunStart_LowResource.sh
+sudo rm -f /media/fat/Scripts/SindenLightgunStart_MaxResource.sh
+sudo rm -f /media/fat/Scripts/SindenLightgunStop.sh
 
 # Remove LD_LIBRARY_PATH addition
 # sudo sed -i '/\/media\/fat\/SindenLightgun/d' /etc/profile

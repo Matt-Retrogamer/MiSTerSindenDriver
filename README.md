@@ -94,26 +94,26 @@ There are multiple steps for getting lightguns to work in MiSTer, make sure to f
 
 ### 1. Run the lightgun driver
 
-Go to scripts on the MiSTer main menu, navigate to `/media/fat/Scripts` and select `LightgunStart_Default.sh`. Click a button on your gamepad after it has started up.
+Go to scripts on the MiSTer main menu, navigate to `/media/fat/Scripts` and select `SindenLightgunStart_Default.sh`. Click a button on your gamepad after it has started up.
 
 Or, if you prefer to run it manually from the shell console, use the following commands:
 
 - For medium resource:
 
    ```shell
-   /media/fat/Scripts/LightgunStart_Default.sh
+   /media/fat/Scripts/SindenLightgunStart_Default.sh
    ```
 
 - For low resource:
 
    ```shell
-   /media/fat/Scripts/LightgunStart_LowResource.sh
+   /media/fat/Scripts/SindenLightgunStart_LowResource.sh
    ```
 
 - For max resource:
 
    ```shell
-   /media/fat/Scripts/LightgunStart_MaxResource.sh
+   /media/fat/Scripts/SindenLightgunStart_MaxResource.sh
    ```
 
 ### 2. Setup lightgun as a MiSTer menu device
